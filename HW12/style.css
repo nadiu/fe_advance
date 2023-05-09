@@ -1,0 +1,110 @@
+body {
+    background-image: url(./img_star_wars/mainjpg.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+}
+.text {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 60px;
+}
+button {
+    color: rgb(34, 5, 43);
+    background: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.planet{
+    border: 0px;
+    width: auto;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: -100px;
+}
+.planet:hover{
+    color: rgb(41, 11, 54);
+    text-shadow: 0px 0px 20px #f7f7f7;
+    transition: 0.5s;  
+}
+.people {
+    margin-left: 40px;
+    border: 0px;
+    width: auto;
+    font-size: 35px;
+    font-weight: bold;
+}
+.people:hover{
+    color: rgb(41, 11, 54);
+    text-shadow: 0px 0px 20px #f7f7f7;
+    transition: 0.5s;  
+}
+.box1{
+    display: inline-grid;
+    justify-content: center;
+    background: rgb(34 5 43 / 50%);
+    width: 300px;
+    margin-left: 40px;
+    padding-left: 10px;
+    margin-top: 30px;
+    padding-top: 12px;
+    margin-right: 40px;
+    height: 350px;
+}
+.planet-name{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 12px;
+    color: white;
+}
+
+.box2{
+    display: inline-grid;
+    justify-content: center;
+    background: rgb(34 5 43 / 50%);
+    width: 300px;
+    margin-left: 40px;
+    padding-left: 10px;
+    margin-top: 30px;
+    padding-top: 12px;
+    margin-right: 40px;
+    height: 350px;
+}
+.user-name{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 12px;
+    color: white;
+}
+.user-birth-year{
+    margin: 0;
+    padding-top: 12px;
+    font-weight: bold;
+}
+.user-gender{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+.planet-climate{
+    margin: 0;
+    padding-top: 12px;
+    font-weight: bold;
+}
+.planet-population{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
